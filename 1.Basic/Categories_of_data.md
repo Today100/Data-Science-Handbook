@@ -1,4 +1,4 @@
-# Types of Data
+# Categories of Data
 
 - [Unstructured](#unstructured-data)
 - [Structured](#structured-data)
