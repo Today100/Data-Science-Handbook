@@ -7,11 +7,11 @@
 5. [Storage](#storage)
 
 
-### Acquisition
+## Acquisition
 
 - Acquire the data from the source (API, Database, File, etc.)
 
-### Cleansing / Cleaning
+## Cleansing / Cleaning
 
 - Process of detecting and correcting corrupt or inacurate data
 - Removing unnecessary data.
@@ -29,7 +29,7 @@ Cleaned Data:
 > 6. The developemnt shall comply with the requirements of DCC's Drainage Division as follows.
 
 
-### Transformation
+## Transformation
 
 - Process of changing the format or structure of data in preparation for analysis.
 
@@ -45,11 +45,11 @@ Transformed for analysis:
 ["Good Comp", "shares", "soared", "as", "much", "as", "8.2%", "on", "2021-01-07", "after", "the", "company", "announced", "positive", "early-stage", "trial", "results", "for", "its", "vaccine"]
 ```
 
-### Analysis
+## Analysis
 
 - Interpret the raw data.
 - Draw conclusion that aren't immediately apparent.
 
-### Storage
+## Storage
 
 - Store the results generated during data analysis process.
