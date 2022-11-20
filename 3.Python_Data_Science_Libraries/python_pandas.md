@@ -94,3 +94,78 @@ print(df)
 
 
 ```
+
+## pandas DataFrame
+
+![finallpandas](https://user-images.githubusercontent.com/82829738/202919884-59a07a38-e28e-446b-a834-9c7db4b5472f.png)
+
+
+
+### Creating a padas DataFrame
+
+- From lists
+```Python
+
+import pandas as pd
+
+student_id_data = [135, 246, 357, 468, 579]
+names_data = ["Bobby", "Alice", "Amy", "Mary", "Huston"]
+math_grade_data = [90, 78, 88, 95, 0]
+eng_grade_data = [80, 90, 92, 67, 100]
+
+data = {"id" : student_id_data, 
+        "name" : names_data,
+        "math_grade" : math_grade_data,
+        "english_grade": eng_grade_data}
+        
+grade_df = pd.DataFrame(data)
+grade_df = df.set_index("id")
+
+print(grade_df)
+```
+![image](https://user-images.githubusercontent.com/82829738/202920549-0cc391ff-7bb2-4927-9783-bbec21d0dbf0.png)
+
+- From JSON
+
+```Python
+import json
+import pandas as pd
+
+data = [
+{"Empno":9001, "Salary": 3000},
+{"Empno":9002, "Salary": 2800},
+{"Empno":9003, "Salary": 2500},
+]
+
+
+json_data = json.dumps(data)
+salary = pd.read_json(json_data)
+salary = salary.set_index("Empno")
+print(salary)
+```
+![image](https://user-images.githubusercontent.com/82829738/202920243-a8d28be7-ba43-49d1-a740-333c0dc9a9e1.png)
+
+Code: https://onecompiler.com/python/3ypj7b7xc
+
+### Combining DataFrames
+
+- DataFrames support database-style join operations through two methods: **merge()** and **join()**
+
+```Python
+
+data = [
+  [135, "m"],
+  [246, "f"],
+  [579, "m"],
+  [357, "f"],
+  [468, "f"]
+  
+]
+
+gender_df = pd.DataFrame(data, columns=["id", "gender"])
+gender_df = gender_df.set_index("id")
+
+student_info = df.join(gender_df)
+print(student_info)
+```
+![image](https://user-images.githubusercontent.com/82829738/202921032-9c798b45-76f3-4b02-a6ae-70f2e025a70c.png)
