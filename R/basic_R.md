@@ -1,1 +1,28 @@
+# R - Easy
 
+## Content:
+
+- [Introduction]()
+  - [Comments]()
+  - [Variables]()
+  - [Data Types]()
+  - [Math]()
+  - [Input and Output]()
+- [Decision]()
+  - [Logical Operators]()
+  - [Loops]()
+  - [break and next]()
+  - [Function]()
+- [Data Structures]()
+  - [Strings]()
+  - [Vectors]()
+  - [Lists]()
+  - [Matrices]()
+  - [DataFrames]()
+- [Analyzing Data - basics]()
+  - [Data Import]()
+  - [Simple Statistics]()
+  - [Basic Operations]()
+  - [Working with Data]()
+  - [Data Grouping]()
+- [Visualization]()
