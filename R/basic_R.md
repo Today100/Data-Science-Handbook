@@ -26,3 +26,10 @@
   - [Working with Data]()
   - [Data Grouping]()
 - [Visualization]()
+  - [Plot function]()
+  - [Line Graph]()
+  - [Bar Graph]()
+  - [Pie Chart]()
+  - [Boxplot]()
+  - [Histogram]()
+
