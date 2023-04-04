@@ -6,7 +6,7 @@
   - [print() and comments](#print-and-comments)
   - [Variables](#variables)
   - [Data Types](#data-types)
-  - [Math]()
+  - [Math](#math-operations)
   - [Input and Output]()
 - [Decision]()
   - [Logical Operators]()
@@ -122,5 +122,15 @@ print(class(bools_true)) # -> "boolean"
 print(class(bools_false)) # -> "boolean"
 ```
 
+## Math (operations)
 
+|Arithmetic|Sign|Example|Exaplanation
+-----------|-----|-------|-----------
+|Add|+|a + b|
+|Subtract|-|a - b|
+|Multiply| * |a * b|
+|Division|/|a / b|
+|Exponentiation|^ or ** | x^y or x ** y|
+|Modulus| %% | a %% b| Give the remainder from division, eg 10%%3 = 1|
+|Integer division| %/%| x %/% y| Eg. 10%/%3 = 3.|
 
