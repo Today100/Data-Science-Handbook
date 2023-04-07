@@ -2,12 +2,12 @@
 
 ## Content:
 
-- [Introduction]()
+- [Introduction](#introduction)
   - [print() and comments](#print-and-comments)
   - [Variables](#variables)
   - [Data Types](#data-types)
   - [Math](#math-operations)
-  - [Input and Output]()
+  - [Input and Output](#input-and-output)
 - [Decision]()
   - [Logical Operators]()
   - [Loops]()
@@ -32,6 +32,9 @@
   - [Pie Chart]()
   - [Boxplot]()
   - [Histogram]()
+
+
+# Introduction
 
 ## print() and comments
 
@@ -133,4 +136,46 @@ print(class(bools_false)) # -> "boolean"
 |Exponentiation|^ or ** | x^y or x ** y|
 |Modulus| %% | a %% b| Give the remainder from division, eg 10%%3 = 1|
 |Integer division| %/%| x %/% y| Eg. 10%/%3 = 3.|
+
+## Input and Output
+
+#### Input
+
+Taking inputs:
+
+```R
+
+user_name <- readLines('stdin')
+print(user_name[1])
+
+# Use casting
+
+user_age <- readLines("stdin")
+print(as.integer(user_age[1]) + 1)
+
+```
+
+#### Output
+
+Write outputs:
+
+```R
+
+# Use the print() function
+print("I am printing a output")
+
+# Use the cat() function
+cat("Outputing something")
+
+# Difference
+ex <- "Hello\nworld!"
+print(ex) # Hello\nworld!
+cat(ex) # Hello
+        # world!
+
+```
+
+
+
+
 
