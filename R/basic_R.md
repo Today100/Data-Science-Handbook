@@ -10,7 +10,7 @@
   - [Input and Output](#input-and-output)
 - [If, Loop, and Function](#if-loop-and-function)
   - [Logical Operators](#logical-operators)
-  - [If, else, and else if]()
+  - [If, else, and else if](#if-else-and-else-if)
   - [Loops]()
   - [break and next]()
   - [Function]()
@@ -173,6 +173,11 @@ ex <- "Hello\nworld!"
 print(ex) # Hello\nworld!
 cat(ex) # Hello
         # world!
+        
+# Concatenate to make output:
+
+paste(5, "is a number") # 5 is a number
+# There will aitomatically be a space
 
 ```
 
@@ -191,5 +196,32 @@ cat(ex) # Hello
 | < | less than | a < b |
 | <= | less than or equal to | a <= b |
 
+## If, Else, and Else if
 
+**Format:**
 
+```
+if (condition){
+  ...
+} else if (condition){
+  ...
+} else {
+  ...
+}
+```
+
+**Example:**
+
+```R
+a <- 5
+b <- 10
+
+if (a==b) {
+  paste(a, "equals to", b)
+} else if (a > b){
+  paste(a, "is larger than", b)
+} else {
+  paste(a, "is less than", b)
+}
+
+```
