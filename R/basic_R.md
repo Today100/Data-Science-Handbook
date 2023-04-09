@@ -8,8 +8,9 @@
   - [Data Types](#data-types)
   - [Math](#math-operations)
   - [Input and Output](#input-and-output)
-- [Decision]()
-  - [Logical Operators]()
+- [If, Loop, and Function](#if-loop-and-function)
+  - [Logical Operators](#logical-operators)
+  - [If, else, and else if]()
   - [Loops]()
   - [break and next]()
   - [Function]()
@@ -175,7 +176,20 @@ cat(ex) # Hello
 
 ```
 
+# If, Loop, and Function
+## Logical Operators
 
+|Symbol|Meaning|Example|
+|-------|------|-------|
+| & |and|a & b |
+| \| | or | a \| b |
+| == | equal to | a == b |
+| =! | not equal to | a =! b |
+| ! | not | !a |
+| > | greater | a > b |
+| >= | greater or equal to | a >= b |
+| < | less than | a < b |
+| <= | less than or equal to | a <= b |
 
 
 
